@@ -26,4 +26,4 @@ Examples responses could be the following:
 {{'valid':false,'issue':"Invalid issuer"}}
 
 ## Security concerns
-For development and testing purposes, a self-signed X.509 certificate is used. However, this would be a security issue in a public setting as a malicious attacker could modify the JWT and substitute the signature with their own signature linking the x5u field to his own, personal certificate. To prevent this from happening, it is recommended to have the certificate signed by a Certificate Authority (CA) and checked for its validity before usage.
+For development and testing purposes, a self-signed X.509 certificate is used. However, this would be a security issue in a public setting as a malicious attacker could modify the JWT and substitute the signature with their own signature linking the x5u field to their own, personal certificate. To prevent this from happening, it is recommended to have the certificate signed by a Certificate Authority (CA) and checked for its validity before usage.
