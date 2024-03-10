@@ -2,7 +2,7 @@ import requests
 import datetime
 import jwtHelper
 
-PRIVATEKEYLOCATION = "rivate.key"
+PRIVATEKEYLOCATION = "private.key"
 
 VALIDISSUER = "Richard"
 INVALIDISSUER = "evilCorp.com"
