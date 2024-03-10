@@ -13,7 +13,7 @@ INVALIDIAT = "badType"
 VALIDEXP = VALIDIAT + 86400 #24 hours
 INVALIDEXP = 0
 
-VALIDX5ULINK = "http://127.0.0.1:9000/enablebankingcert.pem"
+VALIDX5ULINK = "http://127.0.0.1:9000/cert.pem"
 INVALIDX5ULINK = "wrongwebsite.com"
 
 def test_validJwt():
