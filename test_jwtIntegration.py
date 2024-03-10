@@ -2,9 +2,9 @@ import requests
 import datetime
 import jwtHelper
 
-PRIVATEKEYLOCATION = "enablebankprivate.key"
+PRIVATEKEYLOCATION = "rivate.key"
 
-VALIDISSUER = "enableBankingJobApplication"
+VALIDISSUER = "Richard"
 INVALIDISSUER = "evilCorp.com"
 
 VALIDIAT = int(datetime.datetime.now().timestamp())
