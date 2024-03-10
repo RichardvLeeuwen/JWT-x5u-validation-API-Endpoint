@@ -9,7 +9,7 @@ def getJWTValidity():
         requestAuthorizationHeader = request.headers['Authorization']
         jwtToken = requestAuthorizationHeader.split()[1]
         x5uValue = jwtHelper.returnX5UValue(token=jwtToken)
-        payload = jwtHelper.decodeJWTUsingX5U(x5uLink=x5uValue, token=jwtToken, jwtIssuer="enableBankingJobApplication") 
+        payload = jwtHelper.decodeJWTUsingX5U(x5uLink=x5uValue, token=jwtToken, jwtIssuer="Richard") 
         print(payload)
         return jsonify({"valid":True}), 200
     except Exception as e:
